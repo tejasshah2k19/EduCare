@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Colors (keep consistent or slightly adjust for dark mode) -->
+    <color name="indigo_600">#6366F1</color> <!-- Slightly lighter indigo for dark mode visibility -->
+    <color name="indigo_700">#4F46E5</color>
+    <color name="indigo_100">#1E1B4B</color>
+
+    <!-- Surface Colors - Dark Mode Inversion -->
+    <color name="background">#0F172A</color> <!-- Slate 900 -->
+    <color name="surface">#1E293B</color>    <!-- Slate 800 -->
+    <color name="surface_variant">#334155</color>
+
+    <!-- Text Colors - Dark Mode Inversion -->
+    <color name="text_primary">#F8FAFC</color>   <!-- Slate 50 (Off-white) -->
+    <color name="text_secondary">#94A3B8</color> <!-- Slate 400 -->
+    <color name="text_hint">#64748B</color>      <!-- Slate 500 -->
+
+    <!-- Accent -->
+    <color name="success">#10B981</color>
+    <color name="success_light">#064E3B</color>
+
+    <!-- Stroke -->
+    <color name="stroke">#334155</color>
+
+    <!-- Legacy Compatibility -->
+    <color name="black">#F8FAFC</color>
+    <color name="white">#0F172A</color>
+</resources>

@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme -->
-    <style name="Theme.EduCare" parent="Theme.MaterialComponents.Light.NoActionBar">
+    <style name="Theme.EduCare" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">@color/indigo_600</item>
         <item name="colorPrimaryVariant">@color/indigo_700</item>
         <item name="colorOnPrimary">@color/white</item>
@@ -8,6 +8,8 @@
         <item name="colorSecondaryVariant">@color/teal_700</item>
         <item name="colorOnSecondary">@color/white</item>
         <item name="android:colorBackground">@color/background</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
         <item name="android:statusBarColor">@color/indigo_700</item>
         <item name="android:windowLightStatusBar" tools:targetApi="23">false</item>
         <item name="shapeAppearanceSmallComponent">@style/ShapeSmall</item>

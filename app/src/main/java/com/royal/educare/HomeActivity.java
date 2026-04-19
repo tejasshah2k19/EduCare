@@ -70,7 +70,8 @@ public class HomeActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        // Refresh progress and profile photo whenever returning from a course or profile
+        // Refresh progress and profile photo whenever returning from a course or
+        // profile
         if (currentUserId != -1 && courseList != null) {
             loadUserData();
             loadSavedPhoto();
@@ -119,12 +120,13 @@ public class HomeActivity extends AppCompatActivity {
                     if (course.id == enrollment.courseId) {
                         course.isEnrolled = true;
                         // Load topic progress for this course
-                        List<TopicProgress> progressList =
-                                db.topicProgressDao().getProgressForCourse(currentUserId, course.id);
+                        List<TopicProgress> progressList = db.topicProgressDao().getProgressForCourse(currentUserId,
+                                course.id);
                         int totalTopics = TopicProvider.getTopicsForCourse(course.id).size();
                         int completedTopics = 0;
                         for (TopicProgress p : progressList) {
-                            if (p.isCompleted) completedTopics++;
+                            if (p.isCompleted)
+                                completedTopics++;
                         }
                         course.progressPercent = totalTopics == 0 ? 0
                                 : (completedTopics * 100) / totalTopics;
@@ -166,5 +168,7 @@ public class HomeActivity extends AppCompatActivity {
         courseList.add(new Course(3, "Science Explorer", "Introduction to biology, chemistry, and physics.", 15));
         courseList.add(new Course(4, "History 101", "A basic overview of world and regional history.", 8));
         courseList.add(new Course(5, "Programming for Beginners", "Learn the basics of logic and computers.", 20));
+        courseList.add(new Course(6, "Computer Science", "Learn the basics of computer science.", 25));
+        courseList.add(new Course(7,"Java","Completed inDepth Core Java ",5));
     }
 }
