@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">EduCare</string>
+    
+    <!-- Login Screen -->
+    <string name="login_title">Welcome Back</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="no_account_text">Don\'t have an account? Sign Up</string>
+
+    <!-- Signup Screen -->
+    <string name="signup_title">Create Account</string>
+    <string name="first_name_hint">First Name</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="signup_button">Sign Up</string>
+    <string name="have_account_text">Already have an account? Login</string>
+
+    <!-- Messages -->
+    <string name="login_success">Login Successful!</string>
+    <string name="signup_success">Account Created Successfully!</string>
+    <string name="error_empty_fields">Please fill all fields</string>
+</resources>
